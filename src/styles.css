@@ -29,3 +29,28 @@ input {
 .top-header {
   margin: 20px;
 }
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 70vh;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.scores-list {
+  width: 50%;
+}
+
+.scores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.scores-header .refresh-btn {
+  padding: 4px 11px;
+}
