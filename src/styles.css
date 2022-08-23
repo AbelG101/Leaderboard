@@ -54,3 +54,12 @@ input {
 .scores-header .refresh-btn {
   padding: 4px 11px;
 }
+
+.table {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.table tr:nth-child(even) {
+  background-color: hsl(163, 14%, 82%);
+}
