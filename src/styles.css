@@ -2,4 +2,26 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  background-color: #e2e9e7;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  outline: none;
 }
