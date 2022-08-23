@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  font-size: calc(15px + 0.390625vw);
+}
+
+body {
+  background-color: #e2e9e7;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+.top-header {
+  margin: 20px;
+}
+
+.container {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 70vh;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.scores-list {
+  width: 50%;
+}
+
+.scores-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.scores-header .refresh-btn {
+  padding: 4px 11px;
+}
+
+.table {
+  border: 2px solid #000;
+  width: 100%;
+}
+
+.table tr:nth-child(even) {
+  background-color: hsl(163, 14%, 82%);
+}
+
+.add-score {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.input-container input {
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border: 1px solid #000;
+}
+
+.input-container button {
+  align-self: flex-end;
+  padding: 5px 11px;
+  width: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .container > * {
+    width: 100%;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}
