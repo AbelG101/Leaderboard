@@ -86,3 +86,13 @@ input {
   padding: 5px 11px;
   width: auto;
 }
+
+@media screen and (max-width: 800px) {
+  .container > * {
+    width: 100%;
+  }
+
+  .input-container {
+    width: 100%;
+  }
+}
