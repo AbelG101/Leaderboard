@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  color: #0e1318;
 }
 
 html {
@@ -32,6 +33,10 @@ button {
   padding: 8px 16px;
   border-radius: calc((16px + 2.24rem) / 2);
   border: 1px solid rgba(64, 87, 109, 0.5);
+}
+
+button:active {
+  background-color: rgba(64, 87, 109, 0.15);
 }
 
 .top-header {
@@ -85,9 +90,16 @@ button {
 }
 
 .input-container input {
+  background-color: hsl(340, 14%, 89%);
   margin-bottom: 10px;
   padding: 10px 5px;
-  border: 1px solid #000;
+  border-bottom: 2px solid #d3c5c9;
+  transition: 0.5s;
+}
+
+.input-container input:focus {
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
 }
 
 .input-container button {
