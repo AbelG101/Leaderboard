@@ -10,7 +10,8 @@ html {
 }
 
 body {
-  background-color: #e2e9e7;
+  background: url('./images/background.svg') no-repeat center fixed;
+  background-size: cover;
 }
 
 a {
