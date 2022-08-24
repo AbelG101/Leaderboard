@@ -77,14 +77,6 @@ npm run build
 
 ```
 
--- After installing the dependencies you can run tests using this command:
-
-```bash
-
-npm run test
-
-```
-
 ## Author
 
   
