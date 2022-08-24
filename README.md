@@ -58,7 +58,7 @@ After installing NodeJS please follow the next steps...
 -- To clone this project use:
 ```bash
 
-git clone https://github.com/AbelG101/To-Do-List-App.git
+git clone https://github.com/AbelG101/Leaderboard.git
 
 ```
 -- for installing dev dependecies use:
