@@ -27,6 +27,13 @@ input {
   outline: none;
 }
 
+button {
+  background-color: rgba(64, 87, 109, 0.07);
+  padding: 8px 16px;
+  border-radius: calc((16px + 2.24rem) / 2);
+  border: 1px solid rgba(64, 87, 109, 0.5);
+}
+
 .top-header {
   margin: 20px;
 }
@@ -57,12 +64,13 @@ input {
 }
 
 .table {
-  border: 2px solid #000;
+  background-color: #f9f8f8;
+  border: 2px solid #d3c5c9;
   width: 100%;
 }
 
 .table tr:nth-child(even) {
-  background-color: hsl(163, 14%, 82%);
+  background-color: hsl(0, 8%, 94%);
 }
 
 .add-score {
