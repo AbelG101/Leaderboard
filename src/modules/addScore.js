@@ -1,4 +1,4 @@
-import renderScoreOnPage from './renderPage';
+import renderScoreOnPage from './renderPage.js';
 
 const addScore = async () => {
   const gameApiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/';
