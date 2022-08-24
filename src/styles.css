@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  color: #0e1318;
 }
 
 html {
@@ -10,7 +11,8 @@ html {
 }
 
 body {
-  background-color: #e2e9e7;
+  background: url('./images/background.svg') no-repeat center fixed;
+  background-size: cover;
 }
 
 a {
@@ -24,6 +26,17 @@ ul {
 input {
   border: none;
   outline: none;
+}
+
+button {
+  background-color: rgba(64, 87, 109, 0.07);
+  padding: 8px 16px;
+  border-radius: calc((16px + 2.24rem) / 2);
+  border: 1px solid rgba(64, 87, 109, 0.5);
+}
+
+button:active {
+  background-color: rgba(64, 87, 109, 0.15);
 }
 
 .top-header {
@@ -56,12 +69,13 @@ input {
 }
 
 .table {
-  border: 2px solid #000;
+  background-color: #f9f8f8;
+  border: 2px solid #d3c5c9;
   width: 100%;
 }
 
 .table tr:nth-child(even) {
-  background-color: hsl(163, 14%, 82%);
+  background-color: hsl(0, 8%, 94%);
 }
 
 .add-score {
@@ -76,9 +90,16 @@ input {
 }
 
 .input-container input {
+  background-color: hsl(340, 14%, 94%);
   margin-bottom: 10px;
   padding: 10px 5px;
-  border: 1px solid #000;
+  border-bottom: 2px solid #d3c5c9;
+  transition: 0.5s;
+}
+
+.input-container input:focus {
+  border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
 }
 
 .input-container button {
