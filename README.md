@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-> Comming soon ...
+> [Click here](https://abelg101.github.io/Leaderboard/) to view a live demo
 
   
 
@@ -74,14 +74,6 @@ npm install
 ```bash
 
 npm run build
-
-```
-
--- After installing the dependencies you can run tests using this command:
-
-```bash
-
-npm run test
 
 ```
 
