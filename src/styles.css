@@ -68,6 +68,11 @@ button:active {
   padding: 4px 11px;
 }
 
+.table-container {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
 .table {
   background-color: #f9f8f8;
   border: 2px solid #d3c5c9;
