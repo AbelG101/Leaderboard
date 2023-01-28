@@ -28,11 +28,11 @@
       <div class="scores-header">
         <h3>Add your score</h3>
       </div>
-      <div class="input-container">
+      <form class="input-container">
         <input class="name-input" type="text" placeholder="Your name" required>
-        <input class="score-input" type="text" placeholder="Your score" required>
-        <button class="submit-btn">Submit</button>
-      </div>
+        <input class="score-input" placeholder="Your score" type="number" min="0" max="100" required>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
     </section>
   </div>
   <script src="../dist/bundle.js"></script>
