@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-> [Click here](https://abelg101.github.io/Leaderboard/) to view a live demo
+> [Click here](https://abelg101-leaderboard.onrender.com) to view a live demo
 
   
 
